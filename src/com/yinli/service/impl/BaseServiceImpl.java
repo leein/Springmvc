@@ -55,7 +55,7 @@ public class BaseServiceImpl<Pojo extends BaseObject, PK extends Serializable> i
 	@Override
 	public boolean exists(PK id) {
 		// TODO Auto-generated method stub
-		System.out.println("测试git文件修改能不能正确上传!");
+		System.out.println("配置完github链接后,第二次将测试git文件上传!");
 		return baseDao.exists(id);
 	}
 
